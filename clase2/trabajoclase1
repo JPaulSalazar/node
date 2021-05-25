@@ -1,0 +1,52 @@
+function factorial(numero) {
+  let contador = 1
+  for(let i = 1; i <= numero; i++){
+      contador *= i;
+    }
+  return contador
+  
+}
+
+factorial(5);
+
+function numeroMayor(a,b,c) {
+
+  return Math.max(a,b,c);
+
+}
+
+ 
+numeroMayor(2021,1997,3000)
+
+function promedio(num1, num2, num3) {
+
+  num1 = 34;
+  num2= 56;
+  num3 = 23;
+
+  return (num1 + num2 + num3)/3
+  
+}
+
+promedio()
+
+function negativo(num) {
+  if(num > 0){
+    console.log("El numero es positivo");
+  }else{
+    console.log("El numero es negativo");
+  }
+}
+
+negativo(-23)
+
+function division(num1,num2) {
+
+  if( num1 == 0 || num2 == 0){
+   console.log("Error"); 
+  }else{
+   let resultado = num1/ num2;
+   console.log("El resultado es " + resultado)
+  }
+}
+division(800,400);
