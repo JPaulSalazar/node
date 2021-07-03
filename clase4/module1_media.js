@@ -25,3 +25,4 @@ function mediaPositive(positive){
     let average = suma / positive.length
     return average
 }
+
